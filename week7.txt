@@ -1,0 +1,17 @@
+วันที่:10 กรกฏาคม 2569
+
+หัวข้อที่เรียน
+-Git พื้นฐาน
+
+สิ่งที่ได้
+git clone <URL> //clone git
+cd Project //เข้าไปยังโฟล์เดอร์
+git status //สรวจสอบสถานะ
+git add .  //เตรียมไฟล์สำหรับ Commit . หมายถึงทุกไฟล์ในโฟลเดอร์
+git commit -m "First Commit"  //บันทึกการเปลี่ยนแปลง "First Commit" คือข้อความอธิบาย
+git remote add origin ลิ้งของเรา  //เชื่อมโปรเจกต์ในเครื่องกับ Repository บน GitHuborigin เป็นชื่อของ Remote
+git branch -M main  //เปลี่ยนชื่อ Branch หลักเป็น main
+git push -u origin main  //อัปโหลดขึ้น GitHub -u ทำให้ครั้งต่อไปใช้แค่
+
+สิ่งที่สงสัย
+ทำไมง่วงจัง
